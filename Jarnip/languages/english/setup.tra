@@ -8,8 +8,8 @@
 STATISTICS:
 
 Equipped Abilities:
-- +20% Resistance to Physical Damage
-- +10 to Maximum Hit Points (+20 for Barbarians)
+- Physical Damage Resistance: +8% (15% for barbarians) 
+- Maxmimum Hit Points: +10 (+20 for barbarians)
 
 THAC0: +3
 Damage: 1d10+3, +1 cold
@@ -27,10 +27,11 @@ Weight: 10~
 STATISTICS:
 
 Equipped abilities:
-- +5% Resistance to Physical Damage (+15% for Cavalier)
-- +1 to Charisma (+2 for Cavalier)
+- Physical Damage Resistance: +5% (+12% for cavaliers)
+- Charisma: +1 (+2 for cavaliers)
+- Base AC: +1 (cavalier only)
 
-Armor Class: -1 (-5 vs. slashing, -4 vs. piercing and missile), -2 (Cavalier)
+Armor Class: -1 (-5 vs. slashing, -4 vs. piercing and missile)
 Requires:
  18 Strength
 
@@ -41,8 +42,7 @@ Weight: 100~
 STATISTICS:
 
 Equipped abilities:
-- Elf or Half-Elf: +1 THAC0 and damage with missile weapons
-- Fighter/Mage: +1 THAC0 and damage with missile weapons
+- +1 THAC0 and damage with missile weapons (elven races and fighter/mages)
 
 Combat abilities:
 - When no arrows are equipped, the bow fires missiles that are treated as +3 for the purposes of determining what enemies they can damage. The missiles receive +3, to hit including the bonus listed below, and deal a total of 1d6+3 piercing and 1d4 magic damage
@@ -64,7 +64,7 @@ STATISTICS:
 
 Equipped abilities:
 - Armor Class: +1
-- Spell Casting Speed Improved by 2
+- Casting Speed: +1
 
 THAC0: +3
 Damage: 1d8+3 (slashing), +1 (magic)
@@ -83,8 +83,8 @@ STATISTICS:
 
 Equipped Abilities:
 - Weapon Speed Factor: +1
-- Visual Range: +2 (+4 for Stalker)
-- 1/2 extra attack per round (Stalker only)
+- Visual Range: +1 (+2 for stalkers)
+- Attacks per round: +1/2 (stalkers only)
 - Protects against critical hits
 
 Weight: 2~
@@ -95,16 +95,16 @@ STATISTICS:
 
 Equipped abilities:
 - Armor Class: +2
-- Critical Hit Chance: +5% (Swashbuckler and Blade only)
-- Luck: +1 (Swashbuckler only)
+- Critical Hit Chance: +5% (double for swashbucklers and blades)
+- Luck: +1 (swashbuckler only)
 
 Combat Abilities:
-- Each hit improves the wielder's Armor Class by 1 for 3 rounds
+- Each hit improves the wielder's Armor Class by 1 for 3 rounds // ?? seems excesive
 
 THAC0: +2
 Damage: 1d6+2 (piercing)
-Speed Factor: 1
-Proficiency Type: Longsword
+Speed Factor: 2
+Proficiency Type: Short Sword / Rapier
 Type: One-handed
 Requires:
  5 Strength
@@ -118,8 +118,8 @@ STATISTICS:
 
 Equipped abilities:
 – Armor Class: +3
-– Magic Resistance: +10% (+20% for Wizard Slayer and Inquisitor)
-– Reflects all Dispel Magic effects back at their caster (Wizard Slayer and Inquisitor only)
+– Magic Resistance: +7% (+12% for wizard slayers, 20% for inquisitors)
+– Reflects all Dispel Magic effects back at their caster (Wizard Slayer and Inquisitor only) // does this even work?
 
 Requires:
  4 Strength
@@ -131,7 +131,7 @@ Weight: 3~
 STATISTICS:
 
 Equipped Abilities:
-- Electricity Damage: +20% bonus
+- Electricity Damage: +20%
 
 Combat Abilities:
 - 20% chance to cast Call Lightning on hit (4d8 damage, save vs. spell for half)
@@ -184,10 +184,10 @@ Weight: 6~
 STATISTICS:
 
 Equipped abilities:
-- 1/2 extra attack per round (1 for Kensai)
+- Attacks per round: +1/2 (+1 for kensais)
 
 Combat Abilities:
-- For 10 seconds after activating Kai, the chance to score a critical hit increases by 10% (Kensai only)
+- For 10 seconds after activating Kai, the chance to score a critical hit increases by 10% (kensai only)
 
 THAC0: +2
 Damage: 1d10+2 (slashing)
@@ -204,7 +204,7 @@ Weight: 5~
 STATISTICS:
 
 Equipped abilities:
-- Magic Resistance: +10% (+20% for Wizard Slayers)
+- Magic Resistance: +8% (+15% for Wizard Slayers)
 - Saving Throws: +1 (+2 for Wizard Slayers)
 
 Armor Class: 1 (0 vs. piercing and missile, -1 vs. crushing)
@@ -213,14 +213,14 @@ Requires:
 
 Weight: 50~
 @128  = ~Reghedmen Iron Circlet~
-@129  = ~This bare iron band was the war-helm of one of the barbarian chieftains from the Reghed Glacier who led the failed assault on the Ten Towns centuries ago. Said to be quenched in the blood of fallen foes and blessed by Tempos, this circlet sharpens the senses in the heat of battle, allowing its wearer to strike with deadly rage.
+@129  = ~This bare iron band was the war-helm of one of the barbarian chieftains from the Reghed Glacier who led the failed assault on the Ten Towns centuries ago. Said to be quenched in the blood of fallen foes and blessed by Tempus, this circlet sharpens the senses in the heat of battle, allowing its wearer to strike with deadly rage.
 
 STATISTICS:
 
 Equipped abilities:
 - THAC0 and Damage: +1
-- Slashing, Crushing, and Piercing Damage: +15% bonus
-- Each time the wearer is hit in combat, Slashing, Crushing, and Piercing Damage increases by further 5% for 1 round (Barbarians only)
+- Slashing, Crushing, and Piercing Damage: +7%
+- Each time the wearer is hit in combat, Slashing, Crushing, and Piercing Damage increases by further 7% for 1 round (Barbarians only) // stacks?
 - Protects against critical hits
 
 Weight: 1~
@@ -258,10 +258,9 @@ Once equipped, this cursed sword cannot be removed or unequipped by any known sp
 STATISTICS:
 
 Equipped abilities:
-- Cursed
-- Immune to Remove Curse
-- Charisma: -5 penalty
-- Constitution: -2 penalty
+- Permanently cursed without any possibility of removal beyond death
+- Charisma: -5
+- Constitution: -2
 - Appearance changes: skin turns pale gray, hair becomes bone-white
 
 Combat abilities:
@@ -269,8 +268,8 @@ Combat abilities:
 - Dread Hunger: On each hit, the target must Save vs. Death or receive extra 2d4 magic damage. The stolen Hit Points are transferred to the wielder. This will not heal beyond the wielder's maximum
 - Blood Lust: Killing an enemy restores 4d6 Hit Points and increases Strength, Dexterity, and Constitution by 1 for 1 turn
 
-Damage: 2d4+5 (slashing)
 THAC0: +5
+Damage: 2d4+5 (slashing)
 Speed Factor: 3
 Proficiency Type: Bastard Sword
 Type: One-handed
@@ -285,7 +284,7 @@ STATISTICS:
 
 Equipped Abilities:
 - +5% Resistance to Slashing, Piercing, and Crushing Damage
-- +1 to Strength (Dwarves only)
+- Strength: +1 (dwarves only)
 
 THAC0: +2
 Damage: 2d4+3 (crushing), extra +2d4 vs. goblins, orcs, and giants
@@ -304,8 +303,8 @@ STATISTICS:
 
 Equipped Abilities:
 - +5% Resistance to Slashing, Piercing, and Crushing Damage
-- +1 to Constitution
-- 1/2 extra attack per round (Dwarven Defender only)
+- Constitution: +1
+- Attacks per round: +1/2 (dwarven defender only)
 
 THAC0: +2
 Damage: 2d4+3 (crushing)
@@ -322,10 +321,10 @@ Weight: 20~
 STATISTICS:
 
 Equipped Abilities:
-- Movement Rate improved by 2
+- Movement rate increased by a factor of 2
 
 Combat Abilities:
-- Melee range increased by 50% (3 ft. total)
+- Melee range increased by 50%
 - On hit: 33% chance to stagger the target in place for 1 round and deal 1d10 piercing damage (no save)
 
 THAC0: +2
@@ -339,14 +338,14 @@ Requires:
 
 Weight: 12~
 @140  = ~Black Doom +2~
-@141  = ~At first glance, this blackened iron shield seems old and unremarkable. However, upon closer inspection, you notice a faint symbol of Bane carved on its interior. It once belonged to a forsaken Blackguard who ravaged the coast of Tethyr during one of its civil wars. Ultimately, the Banite was hunted down by the Loyal Order of Innocents, and his name was erased from recorded history.
+@141  = ~At first glance, this blackened iron shield seems old and unremarkable. However, upon closer inspection, you notice a faint symbol of Bane carved on its interior. It once belonged to a forsaken blackguard who ravaged the coast of Tethyr during one of its civil wars. Ultimately, the Banite was hunted down by the Loyal Order of Innocents, and his name was erased from recorded history.
 
 STATISTICS:
 
 Equipped abilities:
-- Armor Class: +3 (+5 for Blackguards)
-- Saving Throws: +1 (+3 for Blackguards)
-- Fire and Cold Resistance: +10%
+- Armor Class: +3 (+4 for Blackguards)
+- Saving Throws: +1 (+2 for Blackguards)
+- Fire and Cold Resistance: +20%
 
 Combat abilities:
 – Casts Doom on whoever hits the wielder: -2 penalty to THAC0 and Saving Throws for 1 turn
@@ -361,7 +360,7 @@ STATISTICS:
 Equipped abilities:
 - Armor Class: +1
 - Melee THAC0 and damage: +1
-- Melee Critical Hit chance: +5% (Swashbuckler and Blade only)
+- Melee Critical Hit chance: +5% (swashbuckler and blade only)
 
 Weight: 2~
 @144  = ~Helm of the Faithful~
@@ -382,10 +381,10 @@ Weight: 2~
 STATISTICS:
 
 Equipped Abilities:
-- Move Silently and Hide In Shadows: +10%
-- Movement Rate improved by 2
+- Move Silently and Hide In Shadows: +10
+- Movement rate increased by 2
 - Immunity to fatigue
-- Backstab Multiplier: +1 (Stalkers only)
+- Backstab multiplier: +1 (stalkers only)
 
 Armor Class: 3 (1 vs. slashing, 2 vs. piercing and missile)
 Requires:
@@ -398,8 +397,8 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-- Armor Class: -2 Penalty
-- 1/2 extra attack per round (Berserkers and Barbarians only)
+- Armor Class: -2
+- Attacks per round: +1/2 (berserkers and barbarians only)
 
 Combat abilities:
 - Each successful hit deals extra 1d10 slashing damage to all enemies within 3 ft. in front of the wielder. Affected targets must save vs. Death or fall on the ground for 1 round.
@@ -421,7 +420,7 @@ STATISTICS:
 Equipped abilities:
 - Armor Class: +1
 - Saving Throws: +1
-- Spell Casting Speed Improved by 1 (Clerics and Paladins only)
-- Divine Casting Level: +1 (Clerics and Paladins only)
+- Casting speed: +1 (clerics and paladins only)
+- Divine Casting Level: +1 (clerics and paladins only)
 
 Weight: 1~
