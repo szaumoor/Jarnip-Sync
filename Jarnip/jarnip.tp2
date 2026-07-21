@@ -495,6 +495,8 @@ Equipped abilities:
 
 Weight: 2 */
 
+COPY_EXISTING ~sw1h01.itm~ ~override/zs_jarnip.kl~ // MARKER FILE for detection of this fork
+
 COPY ~%MOD_FOLDER%/items/JP#21.itm~ ~override~
 SAY NAME1 @144 /* Helm of the Faithful */
 SAY NAME2 @144 /* Helm of the Faithful */
